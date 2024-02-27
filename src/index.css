@@ -24,3 +24,11 @@ code {
   width: 200px;
   height: 400px;
 }
+
+.footer {
+  height: 500px;
+}
+
+.footer_title {
+  font-size: 50px;
+}
