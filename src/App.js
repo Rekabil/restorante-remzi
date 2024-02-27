@@ -1,14 +1,17 @@
 import "./App.css";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MyNavbar from "./components/MyNavbar";
 import "bootstrap/dist/css/bootstrap.css";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <MyNavbar />
-        <Routes></Routes>
+        <Routes>
+          <Route path="" element={<HomePage />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );
