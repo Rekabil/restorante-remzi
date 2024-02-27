@@ -20,6 +20,12 @@ const MyNavbar = () => {
           <Nav.Item>
             <Nav.Link>Dove Siamo</Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link>Prenotazione</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link>Recensioni</Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar>
     </Container>
