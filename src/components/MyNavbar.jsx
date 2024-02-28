@@ -1,6 +1,9 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const MyNavbar = () => {
+  const navigation = useNavigate();
+
   return (
     <Container fluid>
       <Navbar>
@@ -9,10 +12,22 @@ const MyNavbar = () => {
         </Navbar.Brand>
         <Nav>
           <Nav.Item>
-            <Nav.Link>Home</Nav.Link>
+            <Nav.Link
+              onClick={() => {
+                navigation("/");
+              }}
+            >
+              Home
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>Chi Siamo</Nav.Link>
+            <Nav.Link
+              onClick={() => {
+                navigation("/chisiamo");
+              }}
+            >
+              Chi Siamo
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>Il Nostro Menu</Nav.Link>

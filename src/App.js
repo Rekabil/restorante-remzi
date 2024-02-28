@@ -4,6 +4,7 @@ import MyNavbar from "./components/MyNavbar";
 import "bootstrap/dist/css/bootstrap.css";
 import HomePage from "./components/HomePage";
 import MyFooter from "./components/MyFooter";
+import ChiSiamo from "./components/ChiSiamo";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <MyNavbar />
         <Routes>
           <Route path="" element={<HomePage />} />
+          <Route path="/chisiamo" element={<ChiSiamo />} />
         </Routes>
         <MyFooter />
       </BrowserRouter>
