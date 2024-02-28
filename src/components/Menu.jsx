@@ -14,10 +14,10 @@ const Menu = () => {
           <h1>Il Nostro Menu</h1>
         </Row>
         <Row>
-          <Col>
+          <Col xs={2}>
             <img src={mamaliga} alt="Dish" className="dish" />
           </Col>
-          <Col>
+          <Col xs={6}>
             <Row>
               <h4>Mămăliga</h4>
             </Row>
@@ -28,10 +28,10 @@ const Menu = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={2}>
             <img src={zeama} alt="Dish" className="dish" />
           </Col>
-          <Col>
+          <Col xs={6}>
             <Row>
               <h4>Zeamă moldovenească cu tăieței</h4>
             </Row>
@@ -43,10 +43,10 @@ const Menu = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={2}>
             <img src={sarmale} alt="Dish" className="dish" />
           </Col>
-          <Col>
+          <Col xs={6}>
             <Row>
               <h4>Sarmale</h4>
             </Row>
@@ -58,10 +58,10 @@ const Menu = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={2}>
             <img src={frigarui} alt="Dish" className="dish" />
           </Col>
-          <Col>
+          <Col xs={6}>
             <Row>
               <h4>Frigărui</h4>
             </Row>
@@ -73,10 +73,10 @@ const Menu = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={2}>
             <img src={placinta} alt="Dish" className="dish" />
           </Col>
-          <Col>
+          <Col xs={6}>
             <Row>
               <h4>Plăcintă</h4>
             </Row>
@@ -87,10 +87,10 @@ const Menu = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={2}>
             <img src={tort} alt="Dish" className="dish" />
           </Col>
-          <Col>
+          <Col xs={6}>
             <Row>
               <h4>Babă neagră</h4>
             </Row>
