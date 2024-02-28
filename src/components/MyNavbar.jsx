@@ -30,7 +30,13 @@ const MyNavbar = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>Il Nostro Menu</Nav.Link>
+            <Nav.Link
+              onClick={() => {
+                navigation("/menu");
+              }}
+            >
+              Il Nostro Menu
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>Dove Siamo</Nav.Link>

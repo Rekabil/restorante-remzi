@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import HomePage from "./components/HomePage";
 import MyFooter from "./components/MyFooter";
 import ChiSiamo from "./components/ChiSiamo";
+import Menu from "./components/Menu";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="" element={<HomePage />} />
           <Route path="/chisiamo" element={<ChiSiamo />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
         <MyFooter />
       </BrowserRouter>
